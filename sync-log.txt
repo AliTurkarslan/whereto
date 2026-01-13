@@ -1,0 +1,1656 @@
+
+> whereto@0.1.0 sync:kadikoy:safe
+> tsx scripts/sync-kadikoy-safe.ts
+
+[dotenv@17.2.3] injecting env (2) from .env.local -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env.local -- tip: ⚙️  override existing env vars with { override: true }
+🏙️  Kadıköy için GÜVENLİ sync başlatılıyor...
+
+📍 Konum: Kadıköy (40.9833, 29.0167)
+💰 Free Tier Koruması: Max 50 mekan/kategori
+
+📊 Tahmini Maliyet:
+   - Text Search: 7 kategori × 3 request = 21 request = $0.67
+   - Nearby Search: 7 kategori × 3 request = 21 request = $0.67
+   - Toplam: ~$1.34 (Free tier: $200/ay)
+
+============================================================
+
+
+============================================================
+📂 Restoran (restaurant) - 1/7
+============================================================
+
+🔄 Syncing places for: restaurant at 40.9833, 29.0167
+📍 Using Google Places API (Free tier protected)...
+🔍 Text Search: restaurant
+✅ Places API: Found 20 places for "restaurant"
+🔍 Nearby Search: restaurant
+✅ Places API Nearby: Found 20 places
+ℹ️  Skipping reviews (Place Details API is expensive - $17/1000 requests)
+💡 Reviews will be fetched via scraping if needed
+✅ Total unique places found: 39
+📦 Places API found 39 places
+ℹ️  Reviews will be fetched via scraping (Place Details API is expensive)
+🔄 Updated place: FABESCO RESTAURANT & CAFÉ
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+🔄 Updated place: Hane Kadıköy
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+🔄 Updated place: il Sud Moda
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Kadıköy Midyecisi
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Ala Kadıköy Meyhane
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Kuzu Kadıköy (Ocakbaşı)
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Zevk Lokanta | Bahariye Caddesi
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: Kimyon Kadıköy
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+🔄 Updated place: Aida - vino e cucina
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+🔄 Updated place: The Townhouse
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Aşiyan Restaurant
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: aralık
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+🔄 Updated place: DENİZ YILDIZI RESTAURANT
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: My Chef
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: VERA "Ocakbaşı"
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Asmalı Bahçe
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Küp Saklı Bahçe Kadıköy
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: KADIKÖY ŞELALE RESTAURANT
+  🤖 Analyzed for alone: 52%
+  🤖 Analyzed for partner: 52%
+  🤖 Analyzed for friends: 52%
+  🤖 Analyzed for family: 52%
+  🤖 Analyzed for colleagues: 52%
+🔄 Updated place: Çiya Sofrası
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Ali Baba Ozlem
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Ceviz Ağacı
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Seven Hills Restaurant
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Ethem Efendi Kahvaltı Bağdat Caddesi
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Şehzade Cağ Kebap
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: Olden 1772
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Nusr-Et Steakhouse Kapalıçarşı
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Manhattan Fenerbahçe
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+✅ Created place: Ethem Efendi Breakfast
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Fatih Belediyesi Çatladıkapı Sosyal Tesisleri
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Garden 1897 Restaurant
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Büyük Kulüp Derneği
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Hasan Usta Kebap
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Salt Fried Chicken Kadıköy
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Hidden Garden Restaurant Sultanahmet
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Salt Fried Chicken Bağdat Caddesi
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: McDonald's
+  🤖 Analyzed for alone: 70%
+  🤖 Analyzed for partner: 70%
+  🤖 Analyzed for friends: 70%
+  🤖 Analyzed for family: 70%
+  🤖 Analyzed for colleagues: 70%
+✅ Created place: Çiğköfteci Ali Usta
+  🤖 Analyzed for alone: 78%
+  🤖 Analyzed for partner: 78%
+  🤖 Analyzed for friends: 78%
+  🤖 Analyzed for family: 78%
+  🤖 Analyzed for colleagues: 78%
+✅ Created place: Midpoint
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+✅ Created place: Brekkie Breakfast Club
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Sync completed for 39 places
+
+✅ Restoran tamamlandı! (1.2s)
+
+⏳ Rate limiting için 2 saniye bekleniyor...
+
+
+============================================================
+📂 Kafe (cafe) - 2/7
+============================================================
+
+🔄 Syncing places for: cafe at 40.9833, 29.0167
+📍 Using Google Places API (Free tier protected)...
+🔍 Text Search: cafe
+✅ Places API: Found 20 places for "cafe"
+🔍 Nearby Search: cafe
+✅ Places API Nearby: Found 20 places
+ℹ️  Skipping reviews (Place Details API is expensive - $17/1000 requests)
+💡 Reviews will be fetched via scraping if needed
+✅ Total unique places found: 40
+📦 Places API found 40 places
+ℹ️  Reviews will be fetched via scraping (Place Details API is expensive)
+✅ Created place: Cafe de Kadıköy
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+🔄 Updated place: FABESCO RESTAURANT & CAFÉ
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Choco Port Kadıköy
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Dem Moda
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: An Moda Cafe
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Fahriye Cafe
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Sanat Esiri Kafe
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Cadıköy Cafe
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+🔄 Updated place: Küp Saklı Bahçe Kadıköy
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: Luwi House Coffee
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: VAU COFFEE KADIKÖY
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Moloko coffee kadikoy
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Florida Coffee Kadıköy
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Viyana Kahvesi Kadıköy
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Story Coffee
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Altkat Coffee Community Moda
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Books & Coffee Yeldeğirmeni
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: SoliBar cafe & kitchen (cafe&shop)
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Carmelo Coffee Kadıköy Altıyol Caddesi
+  🤖 Analyzed for alone: 66%
+  🤖 Analyzed for partner: 66%
+  🤖 Analyzed for friends: 66%
+  🤖 Analyzed for family: 66%
+  🤖 Analyzed for colleagues: 66%
+✅ Created place: 180 Coffee Bakery
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+🔄 Updated place: Ceviz Ağacı
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Sarayburnu Aile Çay bahçesi
+  🤖 Analyzed for alone: 72%
+  🤖 Analyzed for partner: 72%
+  🤖 Analyzed for friends: 72%
+  🤖 Analyzed for family: 72%
+  🤖 Analyzed for colleagues: 72%
+✅ Created place: Hafiz Mustafa 1864
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Kronotrop Caddebostan Grove
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+🔄 Updated place: Manhattan Fenerbahçe
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+✅ Created place: Nevmekan Sahil
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Leticia Üsküdar
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: KukisAcıbadem
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+🔄 Updated place: Büyük Kulüp Derneği
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Korcan Aile Cay Bahcesi
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+🔄 Updated place: Brekkie Breakfast Club
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Starbucks
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Asuman Moda
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Grōn Coffee
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Hafiz Mustafa 1864
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Hafız Mustafa
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Swivel Cafe & Bakery
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Cremma Caddebostan
+  🤖 Analyzed for alone: 72%
+  🤖 Analyzed for partner: 72%
+  🤖 Analyzed for friends: 72%
+  🤖 Analyzed for family: 72%
+  🤖 Analyzed for colleagues: 72%
+✅ Created place: IDEA Kadikoy
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Kemal Usta Waffles
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Sync completed for 40 places
+
+✅ Kafe tamamlandı! (1.2s)
+
+⏳ Rate limiting için 2 saniye bekleniyor...
+
+
+============================================================
+📂 Bar (bar) - 3/7
+============================================================
+
+🔄 Syncing places for: bar at 40.9833, 29.0167
+📍 Using Google Places API (Free tier protected)...
+🔍 Text Search: bar
+✅ Places API: Found 20 places for "bar"
+🔍 Nearby Search: bar
+✅ Places API Nearby: Found 20 places
+ℹ️  Skipping reviews (Place Details API is expensive - $17/1000 requests)
+💡 Reviews will be fetched via scraping if needed
+✅ Total unique places found: 39
+📦 Places API found 39 places
+ℹ️  Reviews will be fetched via scraping (Place Details API is expensive)
+✅ Created place: Karga Bar
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Kadıköy Sokak Cocktail Bar
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: The Harp Irish Pub
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Pablo Pub
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Aylak Kadıköy
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Old Monkey Pub
+  🤖 Analyzed for alone: 74%
+  🤖 Analyzed for partner: 74%
+  🤖 Analyzed for friends: 74%
+  🤖 Analyzed for family: 74%
+  🤖 Analyzed for colleagues: 74%
+✅ Created place: Rock Pub
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Harlem PUB - ROCK & BLUES
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Chapel Pub Kadıköy
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Hiç Pub Kadıköy
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: Berlin Platz Pub
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Father Pub | Kadıköy Pub | The Best Pub in Kadıköy
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Kült Kadıköy
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Revolte Pub
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Rebel Kadıköy
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Wizard Pub
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: V Kadıköy
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Rock'n Rolla
+  🤖 Analyzed for alone: 78%
+  🤖 Analyzed for partner: 78%
+  🤖 Analyzed for friends: 78%
+  🤖 Analyzed for family: 78%
+  🤖 Analyzed for colleagues: 78%
+✅ Created place: Nexus Pub
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+✅ Created place: Stereogun
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+🔄 Updated place: Nusr-Et Steakhouse Kapalıçarşı
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Dorock XL
+  🤖 Analyzed for alone: 78%
+  🤖 Analyzed for partner: 78%
+  🤖 Analyzed for friends: 78%
+  🤖 Analyzed for family: 78%
+  🤖 Analyzed for colleagues: 78%
+✅ Created place: Moda Sea Club 1935
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Viktor Levi Şarap Evi
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: GRACE Rooftop Restaurant
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Adı Şahane Caddebostan
+  🤖 Analyzed for alone: 74%
+  🤖 Analyzed for partner: 74%
+  🤖 Analyzed for friends: 74%
+  🤖 Analyzed for family: 74%
+  🤖 Analyzed for colleagues: 74%
+✅ Created place: Thales Cafe, Kadıköy
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: 360 Panorama Restaurant
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Bira Fabrikası
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Orka Royal Hotel
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+✅ Created place: Altkat Drinkery
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Aksi Cadde
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Ağaç Ev Kadıköy
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Great Fortune Hotel
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Koço
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Simyacı Şarlo
+  🤖 Analyzed for alone: 74%
+  🤖 Analyzed for partner: 74%
+  🤖 Analyzed for friends: 74%
+  🤖 Analyzed for family: 74%
+  🤖 Analyzed for colleagues: 74%
+✅ Created place: Primitif Birahane
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Chimney Bistro
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Bistro 33
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Sync completed for 39 places
+
+✅ Bar tamamlandı! (0.9s)
+
+⏳ Rate limiting için 2 saniye bekleniyor...
+
+
+============================================================
+📂 Kuaför (hair salon) - 4/7
+============================================================
+
+🔄 Syncing places for: hair salon at 40.9833, 29.0167
+📍 Using Google Places API (Free tier protected)...
+🔍 Text Search: hair salon
+✅ Places API: Found 20 places for "hair salon"
+🔍 Nearby Search: hair_care
+✅ Places API Nearby: Found 20 places
+ℹ️  Skipping reviews (Place Details API is expensive - $17/1000 requests)
+💡 Reviews will be fetched via scraping if needed
+✅ Total unique places found: 36
+📦 Places API found 36 places
+ℹ️  Reviews will be fetched via scraping (Place Details API is expensive)
+✅ Created place: Kadikoy bayan kuaforu .keratin.kesim.balyaj.fon.keratinbotox.masa.topuz.hair suat
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: New live studio bayan kuaförü
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: dns Coiffeur
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Hair Design Veysel Tuncer Bayan Kuaförü
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Kadıköy bayan kuaför
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Kadıköy Kuaför Erdal&Cafer
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: The Change Hair Design Studio
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: murlled hair cut kadın erkek barber
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: MM HairStudio Gallery // Kuaför-Berber Unisex
+  🤖 Analyzed for alone: 100%
+  🤖 Analyzed for partner: 100%
+  🤖 Analyzed for friends: 100%
+  🤖 Analyzed for family: 100%
+  🤖 Analyzed for colleagues: 100%
+✅ Created place: Silver Hair Studio
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Atik Hair Studio
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Aura hair studio
+  🤖 Analyzed for alone: 50%
+  🤖 Analyzed for partner: 50%
+  🤖 Analyzed for friends: 50%
+  🤖 Analyzed for family: 50%
+  🤖 Analyzed for colleagues: 50%
+✅ Created place: Curly Hair Crew
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Kadıköy Kuaför – Maji Kuaför Saç Kaynak & Güzellik Merkezi
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: gökhan ışık hair studio
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Levent Biçici Hair Studio
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Ugur Unisex Coiffure
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Pose Hair Point - Kadıköy Moda Kadın Kuaförü
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: TOLGA AYTEKİN CURLY HAİR STUDİO
+  🤖 Analyzed for alone: 100%
+  🤖 Analyzed for partner: 100%
+  🤖 Analyzed for friends: 100%
+  🤖 Analyzed for family: 100%
+  🤖 Analyzed for colleagues: 100%
+✅ Created place: CREW HAIR STUDIO
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: San Kuaför Acıbadem | San Coiffure
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: The Most - Cadde
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: UA TEAM BARBERSHOP
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Hair Mood Gallery Acıbadem
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Cut Labs - Caddebostan Barbershop
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Platin Peruk
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: San Kuaför Sultanahmet
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Meditouch Bağdat Caddesi | Buz Lazer Epilasyon | Soprano Titanium | LPG Alliance | Frozen Face | Aquapure | Emslim | Jetpeel
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: MSMHAİR
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: Hair Repair Garage Studio Caddebostan
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: Toka Kuaför Çiftehavuzlar
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Bonobo Kuaför | Bonobo Hair
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Guest Hair Studio
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Dr. Gokhan Gokler
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Alper Damdelen Hairdresser Hair Extensions İstanbul
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Mos Kuafor
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Sync completed for 36 places
+
+✅ Kuaför tamamlandı! (0.9s)
+
+⏳ Rate limiting için 2 saniye bekleniyor...
+
+
+============================================================
+📂 Spa & Masaj (spa) - 5/7
+============================================================
+
+🔄 Syncing places for: spa at 40.9833, 29.0167
+📍 Using Google Places API (Free tier protected)...
+🔍 Text Search: spa
+✅ Places API: Found 20 places for "spa"
+🔍 Nearby Search: spa
+✅ Places API Nearby: Found 20 places
+ℹ️  Skipping reviews (Place Details API is expensive - $17/1000 requests)
+💡 Reviews will be fetched via scraping if needed
+✅ Total unique places found: 39
+📦 Places API found 39 places
+ℹ️  Reviews will be fetched via scraping (Place Details API is expensive)
+✅ Created place: Qualia Spa & Wellness DoubleTree by Hilton Moda
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Çikolata Spa & Masaj Salonu Kadıköy
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: E Spa Wellness Kadıköy Holiday Inn & Massage Turkish Bath Hammam Istanbul
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Prive Spa & Masaj Salonu Kadıköy
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Serra Spa Kadıköy
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Ak Sauna
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Pera Spa Center
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Istanbul Spa Center
+  🤖 Analyzed for alone: 72%
+  🤖 Analyzed for partner: 72%
+  🤖 Analyzed for friends: 72%
+  🤖 Analyzed for family: 72%
+  🤖 Analyzed for colleagues: 72%
+✅ Created place: Flower Spa & Masaj Salonu Kadıköy
+  🤖 Analyzed for alone: 70%
+  🤖 Analyzed for partner: 70%
+  🤖 Analyzed for friends: 70%
+  🤖 Analyzed for family: 70%
+  🤖 Analyzed for colleagues: 70%
+✅ Created place: VIP Spa & Masaj Salonu Kadıköy
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Cadde Spa ve Masaj
+  🤖 Analyzed for alone: 100%
+  🤖 Analyzed for partner: 100%
+  🤖 Analyzed for friends: 100%
+  🤖 Analyzed for family: 100%
+  🤖 Analyzed for colleagues: 100%
+✅ Created place: Kadıköy Masaj Salonu Mutlu Son
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Space Spa
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Safira Spa Massage Kadıköy
+  🤖 Analyzed for alone: 46%
+  🤖 Analyzed for partner: 46%
+  🤖 Analyzed for friends: 46%
+  🤖 Analyzed for family: 46%
+  🤖 Analyzed for colleagues: 46%
+✅ Created place: Loca Spa & Masaj Salonu Kadıköy
+  🤖 Analyzed for alone: 50%
+  🤖 Analyzed for partner: 50%
+  🤖 Analyzed for friends: 50%
+  🤖 Analyzed for family: 50%
+  🤖 Analyzed for colleagues: 50%
+✅ Created place: Foot Therapy Kadıköy
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: LİLYUM SPA & WELLNESS ASPERA HOTEL ALTUNİZADE
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Sense Spa & Wellness A11 Hotel
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Julia Spa Massage
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Diane Wellness SPA
+  🤖 Analyzed for alone: 74%
+  🤖 Analyzed for partner: 74%
+  🤖 Analyzed for friends: 74%
+  🤖 Analyzed for family: 74%
+  🤖 Analyzed for colleagues: 74%
+✅ Created place: DoubleTree by Hilton Istanbul - Moda
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Four Seasons Hotel Istanbul At Sultanahmet
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Cagaloglu Hamami
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Miss Istanbul Hotel & Spa
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Hurrem Sultan Hammam
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Dosso Dossi Hotels
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Hagia Sofia Mansions Istanbul, Curio Collection by Hilton
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Fit216 Sports Club & SPA
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+🔄 Updated place: Orka Royal Hotel
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+✅ Created place: Yasmak Sultan Hotel
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+🔄 Updated place: Great Fortune Hotel
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Levni Hotel & Spa
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Skalion Hotel
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Gedikpasa Hamam
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Gülhanepark Hotel & Spa
+  🤖 Analyzed for alone: 78%
+  🤖 Analyzed for partner: 78%
+  🤖 Analyzed for friends: 78%
+  🤖 Analyzed for family: 78%
+  🤖 Analyzed for colleagues: 78%
+✅ Created place: Pierre Loti Hotel
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Orient Express & Spa by Orka Hotels
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: GLK PREMIER The Home Suites & Spa
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Shaba Life Club
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Sync completed for 39 places
+
+✅ Spa & Masaj tamamlandı! (1.1s)
+
+⏳ Rate limiting için 2 saniye bekleniyor...
+
+
+============================================================
+📂 Alışveriş (shopping) - 6/7
+============================================================
+
+🔄 Syncing places for: shopping at 40.9833, 29.0167
+📍 Using Google Places API (Free tier protected)...
+🔍 Text Search: shopping
+✅ Places API: Found 13 places for "shopping"
+🔍 Nearby Search: store
+✅ Places API Nearby: Found 20 places
+ℹ️  Skipping reviews (Place Details API is expensive - $17/1000 requests)
+💡 Reviews will be fetched via scraping if needed
+✅ Total unique places found: 32
+📦 Places API found 32 places
+ℹ️  Reviews will be fetched via scraping (Place Details API is expensive)
+✅ Created place: Tepe Nautilus Shopping Mall
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: Kadıköy market
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+🔄 Updated place: Ağaç Ev Kadıköy
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Metto
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Clandestino
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Çiçekişleri Kadıköy
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Müze Shop
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Woof Store Kadikoy
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Limon Kadıköy
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: The Dreamers Figure
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Timsahlı Mısır Çarşısı Kadıköy
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: Akmar Kadıköy Kitabevi
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Suat Ayakkabı & Çanta Kadıköy
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+🔄 Updated place: Ceviz Ağacı
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+🔄 Updated place: Kronotrop Caddebostan Grove
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+🔄 Updated place: Manhattan Fenerbahçe
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+🔄 Updated place: KukisAcıbadem
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Confectioner Cafer Erol
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+🔄 Updated place: Starbucks
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Moda da Nata
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Flying Tiger Copenhagen Bağdat Caddesi
+  🤖 Analyzed for alone: 76%
+  🤖 Analyzed for partner: 76%
+  🤖 Analyzed for friends: 76%
+  🤖 Analyzed for family: 76%
+  🤖 Analyzed for colleagues: 76%
+🔄 Updated place: Asuman Moda
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Created place: Türk Telekom Müdürlüğü
+  🤖 Analyzed for alone: 72%
+  🤖 Analyzed for partner: 72%
+  🤖 Analyzed for friends: 72%
+  🤖 Analyzed for family: 72%
+  🤖 Analyzed for colleagues: 72%
+✅ Created place: ITOPYA
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+🔄 Updated place: Hafız Mustafa
+  🤖 Analyzed for alone: 94%
+  🤖 Analyzed for partner: 94%
+  🤖 Analyzed for friends: 94%
+  🤖 Analyzed for family: 94%
+  🤖 Analyzed for colleagues: 94%
+✅ Created place: MOTOMAX MOTOSİKLET EKİPMANLARI VE AKSESUARLARI
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+🔄 Updated place: Kemal Usta Waffles
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Kadıköy bit pazarı
+  🤖 Analyzed for alone: 74%
+  🤖 Analyzed for partner: 74%
+  🤖 Analyzed for friends: 74%
+  🤖 Analyzed for family: 74%
+  🤖 Analyzed for colleagues: 74%
+✅ Created place: Happy Moon's Fenerbahçe
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: Badem Tat
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Shell
+  🤖 Analyzed for alone: 68%
+  🤖 Analyzed for partner: 68%
+  🤖 Analyzed for friends: 68%
+  🤖 Analyzed for family: 68%
+  🤖 Analyzed for colleagues: 68%
+✅ Created place: Shell
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Sync completed for 32 places
+
+✅ Alışveriş tamamlandı! (0.9s)
+
+⏳ Rate limiting için 2 saniye bekleniyor...
+
+
+============================================================
+📂 Eğlence (entertainment) - 7/7
+============================================================
+
+🔄 Syncing places for: entertainment at 40.9833, 29.0167
+📍 Using Google Places API (Free tier protected)...
+🔍 Text Search: entertainment
+✅ Places API: Found 2 places for "entertainment"
+🔍 Nearby Search: amusement_center
+✅ Places API Nearby: Found 20 places
+ℹ️  Skipping reviews (Place Details API is expensive - $17/1000 requests)
+💡 Reviews will be fetched via scraping if needed
+✅ Total unique places found: 20
+📦 Places API found 20 places
+ℹ️  Reviews will be fetched via scraping (Place Details API is expensive)
+✅ Created place: Fun Crown ''Play a Game'' - Kadıköy PlayStation Cafe
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Atlantis Fun City - Kadıköy
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: KidZania Istanbul
+  🤖 Analyzed for alone: 88%
+  🤖 Analyzed for partner: 88%
+  🤖 Analyzed for friends: 88%
+  🤖 Analyzed for family: 88%
+  🤖 Analyzed for colleagues: 88%
+✅ Created place: Frankenstein House of Horror
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Dehşetin Yüzü Korku Evi
+  🤖 Analyzed for alone: 86%
+  🤖 Analyzed for partner: 86%
+  🤖 Analyzed for friends: 86%
+  🤖 Analyzed for family: 86%
+  🤖 Analyzed for colleagues: 86%
+✅ Created place: Zocco's Internet & Cafe
+  🤖 Analyzed for alone: 84%
+  🤖 Analyzed for partner: 84%
+  🤖 Analyzed for friends: 84%
+  🤖 Analyzed for family: 84%
+  🤖 Analyzed for colleagues: 84%
+✅ Created place: Drakula Korku Evi
+  🤖 Analyzed for alone: 100%
+  🤖 Analyzed for partner: 100%
+  🤖 Analyzed for friends: 100%
+  🤖 Analyzed for family: 100%
+  🤖 Analyzed for colleagues: 100%
+✅ Created place: Escape İstanbul
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Tuzak Escape Games
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Goztepe Goztepe Park Cafe Children's Traffic Training Park
+  🤖 Analyzed for alone: 80%
+  🤖 Analyzed for partner: 80%
+  🤖 Analyzed for friends: 80%
+  🤖 Analyzed for family: 80%
+  🤖 Analyzed for colleagues: 80%
+✅ Created place: Pentagram Kadıköy Korku Evi
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Korku Konağı TÜNEL Korku Evi ( Kadıköy )
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Pükkan
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: VR Station Türkiye
+  🤖 Analyzed for alone: 92%
+  🤖 Analyzed for partner: 92%
+  🤖 Analyzed for friends: 92%
+  🤖 Analyzed for family: 92%
+  🤖 Analyzed for colleagues: 92%
+✅ Created place: Horon house; Horon Course
+  🤖 Analyzed for alone: 96%
+  🤖 Analyzed for partner: 96%
+  🤖 Analyzed for friends: 96%
+  🤖 Analyzed for family: 96%
+  🤖 Analyzed for colleagues: 96%
+✅ Created place: Los Angeles Ps Cafe
+  🤖 Analyzed for alone: 90%
+  🤖 Analyzed for partner: 90%
+  🤖 Analyzed for friends: 90%
+  🤖 Analyzed for family: 90%
+  🤖 Analyzed for colleagues: 90%
+✅ Created place: Konsol Tayfası Playstation Kiralama İstanbul
+  🤖 Analyzed for alone: 98%
+  🤖 Analyzed for partner: 98%
+  🤖 Analyzed for friends: 98%
+  🤖 Analyzed for family: 98%
+  🤖 Analyzed for colleagues: 98%
+✅ Created place: Guest Coffee Playstation
+  🤖 Analyzed for alone: 72%
+  🤖 Analyzed for partner: 72%
+  🤖 Analyzed for friends: 72%
+  🤖 Analyzed for family: 72%
+  🤖 Analyzed for colleagues: 72%
+✅ Created place: Playland
+  🤖 Analyzed for alone: 68%
+  🤖 Analyzed for partner: 68%
+  🤖 Analyzed for friends: 68%
+  🤖 Analyzed for family: 68%
+  🤖 Analyzed for colleagues: 68%
+✅ Created place: Medeniyet Cafe Lounge
+  🤖 Analyzed for alone: 82%
+  🤖 Analyzed for partner: 82%
+  🤖 Analyzed for friends: 82%
+  🤖 Analyzed for family: 82%
+  🤖 Analyzed for colleagues: 82%
+✅ Sync completed for 20 places
+
+✅ Eğlence tamamlandı! (0.9s)
+
+
+============================================================
+📊 ÖZET
+============================================================
+✅ Tamamlanan: 7/7
+❌ Başarısız: 0/7
+📍 Toplam Mekan: 265
+🔢 Tahmini API Request: 42
+💰 Tahmini Maliyet: $0.00
+
+🎉 Sync işlemi tamamlandı!
+
+⚠️  ÖNEMLİ: Free tier limitini kontrol etmek için:
+   https://console.cloud.google.com/apis/dashboard
+
+✅ Tüm sync işlemleri tamamlandı!

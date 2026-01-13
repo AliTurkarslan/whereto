@@ -1,0 +1,22 @@
+/**
+ * PostgreSQL için Drizzle Config Örneği
+ * 
+ * Kullanım:
+ * 1. Bu dosyayı `drizzle.config.ts` olarak kopyala
+ * 2. DATABASE_URL environment variable'ı ayarla
+ * 3. npm run db:push
+ */
+
+import type { Config } from 'drizzle-kit'
+
+export default {
+  schema: './lib/db/schema.ts',
+  out: './drizzle',
+  dialect: 'postgresql', // ✅ SQLite'dan PostgreSQL'e değiştir
+  dbCredentials: {
+    url: process.env.DATABASE_URL!, // ✅ Environment variable'dan al
+  },
+} satisfies Config
+
+
+

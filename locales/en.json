@@ -1,0 +1,83 @@
+{
+  "common": {
+    "welcome": "Will you regret going here?",
+    "next": "Next",
+    "back": "Back",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "An error occurred"
+  },
+  "steps": {
+    "location": {
+      "title": "Where are you?",
+      "autoDetected": "Auto detected",
+      "manual": "Enter manually",
+      "placeholder": "Enter city or location"
+    },
+    "category": {
+      "title": "What are you looking for?",
+      "food": "Food",
+      "coffee": "Coffee",
+      "bar": "Bar",
+      "haircut": "Haircut",
+      "spa": "Spa & Massage",
+      "shopping": "Shopping",
+      "entertainment": "Entertainment",
+      "other": "Other"
+    },
+    "companion": {
+      "title": "Who are you with?",
+      "alone": "Alone",
+      "partner": "Partner",
+      "friends": "Friends",
+      "family": "Family",
+      "colleagues": "Colleagues"
+    }
+  },
+  "results": {
+    "title": "Places suitable for you",
+    "score": "Match",
+    "why": "Why suitable?",
+    "risks": "Warning",
+    "distance": "Distance",
+    "rating": "Rating",
+    "noResults": "No results found",
+    "reviewAnalysis": "Review Analysis",
+    "reviewAnalysisDesc": "We analyzed reviews by category",
+    "showAnalysis": "Show Analysis",
+    "hideAnalysis": "Hide Analysis",
+    "categories": {
+      "servis": "Service",
+      "fiyat": "Price",
+      "kalite": "Quality",
+      "ortam": "Ambiance",
+      "lokasyon": "Location",
+      "temizlik": "Cleanliness",
+      "hiz": "Speed"
+    },
+    "positiveExamples": "Positive Reviews",
+    "negativeExamples": "Negative Reviews",
+    "directions": "Get Directions",
+    "viewOnMap": "View on Map",
+    "placePhoto": "Place View",
+    "filters": "Filters",
+    "sort": "Sort",
+    "search": "Search",
+    "clearFilters": "Clear Filters",
+    "noResultsFiltered": "No places match your filters",
+    "adjustFilters": "Try adjusting your filters."
+  },
+  "feedback": {
+    "title": "Give Feedback",
+    "description": "Your opinion is very valuable to us! Tell us how we can improve the app.",
+    "rating": "Overall Rating",
+    "category": "Category",
+    "detailed": "Detailed Feedback",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "submitting": "Submitting...",
+    "thankYou": "Thank you!",
+    "received": "Your feedback has been received. Thank you for your valuable input!"
+  }
+}
+

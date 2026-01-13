@@ -1,0 +1,37 @@
+/**
+ * PostgreSQL için Database Connection Örneği
+ * 
+ * Kullanım:
+ * 1. Bu dosyayı `lib/db/index.ts` olarak kopyala
+ * 2. DATABASE_URL environment variable'ı ayarla
+ * 3. npm install postgres
+ */
+
+import { drizzle } from 'drizzle-orm/postgres-js'
+import postgres from 'postgres'
+import * as schema from './schema'
+import { logger } from '../logging/logger'
+
+// PostgreSQL connection
+const connectionString = process.env.DATABASE_URL
+
+if (!connectionString) {
+  logger.error('DATABASE_URL environment variable is required', new Error('DATABASE_URL not set'), {})
+  throw new Error('DATABASE_URL environment variable is required')
+}
+
+// Connection pooling için postgres client
+const client = postgres(connectionString, {
+  max: 10, // Connection pool size
+  idle_timeout: 20,
+  connect_timeout: 10,
+})
+
+export const db = drizzle(client, { schema })
+export { schema }
+
+// Helper functions (mevcut fonksiyonlar aynı kalacak)
+// ...
+
+
+

@@ -1,0 +1,83 @@
+{
+  "common": {
+    "welcome": "Buraya gidersen pişman olur musun?",
+    "next": "İleri",
+    "back": "Geri",
+    "search": "Ara",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu"
+  },
+  "steps": {
+    "location": {
+      "title": "Nerdesin?",
+      "autoDetected": "Otomatik algılandı",
+      "manual": "Manuel gir",
+      "placeholder": "Şehir veya konum girin"
+    },
+    "category": {
+      "title": "Ne arıyorsun?",
+      "food": "Yemek",
+      "coffee": "Kahve",
+      "bar": "Bar",
+      "haircut": "Kuaför",
+      "spa": "Spa & Masaj",
+      "shopping": "Alışveriş",
+      "entertainment": "Eğlence",
+      "other": "Diğer"
+    },
+    "companion": {
+      "title": "Kiminle?",
+      "alone": "Yalnız",
+      "partner": "Sevgili",
+      "friends": "Arkadaşlar",
+      "family": "Aile",
+      "colleagues": "İş Arkadaşları"
+    }
+  },
+  "results": {
+    "title": "Sana uygun mekanlar",
+    "score": "Uygunluk",
+    "why": "Neden uygun?",
+    "risks": "Dikkat",
+    "distance": "Mesafe",
+    "rating": "Puan",
+    "noResults": "Sonuç bulunamadı",
+    "reviewAnalysis": "Yorum Analizi",
+    "reviewAnalysisDesc": "Yorumları kategorilere göre analiz ettik",
+    "showAnalysis": "Analizi Göster",
+    "hideAnalysis": "Analizi Gizle",
+    "categories": {
+      "servis": "Servis",
+      "fiyat": "Fiyat",
+      "kalite": "Kalite",
+      "ortam": "Ortam",
+      "lokasyon": "Lokasyon",
+      "temizlik": "Temizlik",
+      "hiz": "Hız"
+    },
+    "positiveExamples": "Pozitif Yorumlar",
+    "negativeExamples": "Negatif Yorumlar",
+    "directions": "Nasıl Giderim?",
+    "viewOnMap": "Haritada Gör",
+    "placePhoto": "Mekan Görünümü",
+    "filters": "Filtreler",
+    "sort": "Sırala",
+    "search": "Ara",
+    "clearFilters": "Filtreleri Temizle",
+    "noResultsFiltered": "Filtrelere uygun mekan bulunamadı",
+    "adjustFilters": "Filtreleri değiştirerek tekrar deneyin."
+  },
+  "feedback": {
+    "title": "Geri Bildirim Ver",
+    "description": "Görüşleriniz bizim için çok değerli! Uygulamayı nasıl iyileştirebileceğimizi söyleyin.",
+    "rating": "Genel Değerlendirme",
+    "category": "Kategori",
+    "detailed": "Detaylı Geri Bildirim",
+    "submit": "Gönder",
+    "cancel": "İptal",
+    "submitting": "Gönderiliyor...",
+    "thankYou": "Teşekkürler!",
+    "received": "Geri bildiriminiz alındı. Değerli görüşleriniz için teşekkür ederiz!"
+  }
+}
+
