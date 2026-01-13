@@ -43,16 +43,16 @@ export async function GET() {
     }
 
     // Basit query test
-    const result = await db.execute(sql`SELECT 1 as test`)
+    await db.execute(sql`SELECT 1 as test`)
     
-    // Table existence check
+    // Table existence check - Drizzle execute() direkt array döndürür
     const tables = await db.execute(sql`
       SELECT table_name 
       FROM information_schema.tables 
       WHERE table_schema = 'public'
-    `)
+    `) as Array<{ table_name: string }>
     
-    const tableNames = (tables.rows as Array<{ table_name: string }>).map(t => t.table_name)
+    const tableNames = tables.map(t => t.table_name)
     const requiredTables = ['places', 'reviews', 'analyses']
     const missingTables = requiredTables.filter(
       table => !tableNames.includes(table)
