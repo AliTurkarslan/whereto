@@ -6,8 +6,8 @@
 
 import { NextResponse } from 'next/server'
 import { getConfig } from '@/lib/config/environment'
-import Database from 'better-sqlite3'
-import path from 'path'
+import { db } from '@/lib/db'
+import { sql } from 'drizzle-orm'
 
 export async function GET() {
   const health: {
@@ -35,33 +35,36 @@ export async function GET() {
     }
   }
 
-  // 2. Database check
+  // 2. Database check (PostgreSQL)
   try {
-    const dbPath = path.join(process.cwd(), 'database.sqlite')
-    const db = new Database(dbPath)
-    
+    // DATABASE_URL kontrolü
+    if (!process.env.DATABASE_URL) {
+      throw new Error('DATABASE_URL environment variable is not set')
+    }
+
     // Basit query test
-    db.prepare('SELECT 1').get()
+    const result = await db.execute(sql`SELECT 1 as test`)
     
     // Table existence check
-    const tables = db
-      .prepare("SELECT name FROM sqlite_master WHERE type='table'")
-      .all() as Array<{ name: string }>
+    const tables = await db.execute(sql`
+      SELECT table_name 
+      FROM information_schema.tables 
+      WHERE table_schema = 'public'
+    `)
     
+    const tableNames = (tables.rows as Array<{ table_name: string }>).map(t => t.table_name)
     const requiredTables = ['places', 'reviews', 'analyses']
     const missingTables = requiredTables.filter(
-      table => !tables.some(t => t.name === table)
+      table => !tableNames.includes(table)
     )
     
     if (missingTables.length > 0) {
       throw new Error(`Missing tables: ${missingTables.join(', ')}`)
     }
     
-    db.close()
-    
     health.checks.database = {
       status: 'ok',
-      message: `${tables.length} tables found`,
+      message: `${tableNames.length} tables found`,
     }
   } catch (error) {
     health.status = 'unhealthy'
